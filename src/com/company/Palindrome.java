@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        for (int i = 0; i < args.length; i++) {
-            String s = args[i];
-        }
         Scanner in = new Scanner(System.in);
         System.out.print("Введите строку: ");
         String s = in.nextLine(); //метод для ввода строки
